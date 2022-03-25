@@ -14,7 +14,7 @@
 <meta property="og:description" content="一、本地(Windows)安装Hexo环境1、安装 git 环境官网下载地址：https:&#x2F;&#x2F;git-scm.com&#x2F; 下载安装包后按提示安装即可，安装完成后桌面右键菜单会有Git GUI Here和Git Bash Here两个选项。安装后可通过cmd窗口验证版本号。 1git --version  2、配置 ssh key 和 Github1、检查ssh key设置首先检查一下电脑上现有的ss">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-03-25T05:59:36.830Z">
-<meta property="article:modified_time" content="2022-03-25T11:20:06.850Z">
+<meta property="article:modified_time" content="2022-03-25T11:56:45.557Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -138,12 +138,11 @@
 
 <p>在浏览器输入 <code>http://localhost:4000</code> ，就能看到 Hexo 的默认主题下的主页了</p>
 <p>至此我们就完成了在本地的配置工作。</p>
-<h2 id="二、服务器端配置"><a href="#二、服务器端配置" class="headerlink" title="二、服务器端配置"></a>二、服务器端配置</h2><p>此步骤是博客搭建过程中最容易出错的地方，提出以下几点建议：</p>
-<ul>
-<li>为了避免出错，推荐直接复制粘贴命令行代码。</li>
-<li>分清是在本地计算机上操作，还是连接服务器在服务器上操作。</li>
-<li>分清在服务器上使用 Git 用户还是使用 root 用户进行操作。</li>
-</ul>
+<h2 id="二、服务器端配置"><a href="#二、服务器端配置" class="headerlink" title="二、服务器端配置"></a>二、服务器端配置</h2><p>我是在腾讯云上买的服务器，配置如下</p>
+<p>实例规格  CPU: 4核 内存: 4GB</p>
+<p>系统盘 80GB SSD云硬盘管理快照</p>
+<p>流量包  1200GB&#x2F;月（带宽：8Mbps）</p>
+<p>注意设置一下密码和防火墙就好了。</p>
 <h3 id="ssh-连接服务器"><a href="#ssh-连接服务器" class="headerlink" title="ssh 连接服务器"></a>ssh 连接服务器</h3><p>我用的是Windows电脑，推荐使用<code>MobaXterm</code>软件进行ssh连接。</p>
 <p>如果你用的是Mac电脑，推荐使用 <code>Royal TSX</code> 软件进行ssh连接。</p>
 <h3 id="安装-nginx"><a href="#安装-nginx" class="headerlink" title="安装 nginx"></a>安装 nginx</h3><blockquote>
@@ -305,11 +304,11 @@
 
 <p>此时，<strong>在浏览器中输入自己的公网 IP，你就可以打开你的博客网站了</strong>。</p>
 <p>备注：在浏览器中输入自己的公网 IP之后，如果网站打不开，请记得检查之前的步骤是否正确，尤其是检查一下 nginx 服务是否已经启动。</p>
-
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://1.13.196.91/2022/03/25/hexo+%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/" data-id="cl16c43lb0001x4vk796s5uqa" data-title="" class="article-share-link">Share</a>
+      <a data-url="http://1.13.196.91/2022/03/25/hexo+%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/" data-id="cl16dcb8t0001wkvka5o591ns" data-title="" class="article-share-link">Share</a>
       
       
       
