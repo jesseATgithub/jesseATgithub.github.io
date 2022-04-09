@@ -8,13 +8,13 @@
     noSupport: 'The browser does not support'
   },
   hexoVersion: '6.1.0'
-} </script><meta name="generator" content="Hexo 6.1.0"></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95"><span class="toc-text">关于性能测试</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#jmeter"><span class="toc-text">jmeter</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">Feng Moqi</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">10</span></a></div></div></div><div id="content-outer"><div class="plain" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">Moakey's Home</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Posts</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span><span class="pull-right"></span></div></div><div class="layout" id="content-inner"><article id="post"><div class="plain" id="post-title">性能测试day2</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2022-04-02</time><span class="post-meta__separator">|</span><span class="post-meta-wordcount"><span>Word count: </span><span class="word-count">414</span><span class="post-meta__separator">|</span><span>Reading time: 1 min</span></span></div><div class="article-container" id="post-content"><p>Day 2</p>
+} </script><meta name="generator" content="Hexo 6.1.0"></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95"><span class="toc-text">关于性能测试</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B3%E4%BA%8Ejmeter"><span class="toc-text">关于jmeter</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E6%8E%A5%E5%8F%A3"><span class="toc-text">关于接口</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E4%BC%A0%E9%80%92"><span class="toc-text">数据传递</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8E%8B%E6%B5%8B%E6%89%A7%E8%A1%8C%E8%87%AA%E5%8A%A8%E5%8C%96"><span class="toc-text">压测执行自动化</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">Feng Moqi</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">15</span></a></div></div></div><div id="content-outer"><div class="plain" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">Moakey's Home</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Posts</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span><span class="pull-right"></span></div></div><div class="layout" id="content-inner"><article id="post"><div class="plain" id="post-title">性能测试day2</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2022-04-02</time><span class="post-meta__separator">|</span><span class="post-meta-wordcount"><span>Word count: </span><span class="word-count">1.9k</span><span class="post-meta__separator">|</span><span>Reading time: 6 min</span></span></div><div class="article-container" id="post-content"><p>Day 2</p>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> 1.使用代理服务器录制请求</li>
-<li><input disabled="" type="checkbox"> 2.http&#x2F;https协议分析</li>
-<li><input disabled="" type="checkbox"> 3.创建http请求和虚拟用户并发</li>
-<li><input disabled="" type="checkbox"> 4.ramp-up和调度器</li>
-<li><input disabled="" type="checkbox"> 5.测试结果分析和自动化压测</li>
+<li><input checked="" disabled="" type="checkbox"> 2.http&#x2F;https协议分析</li>
+<li><input checked="" disabled="" type="checkbox"> 3.创建http请求和虚拟用户并发</li>
+<li><input checked="" disabled="" type="checkbox"> 4.ramp-up和调度器</li>
+<li><input checked="" disabled="" type="checkbox"> 5.测试结果分析和自动化压测</li>
 </ul>
 <h1 id="关于性能测试"><a href="#关于性能测试" class="headerlink" title="关于性能测试"></a>关于性能测试</h1><p>简单理解：对于性能指标的测试就是性能测试</p>
 <p>功能测试关注能不能用，性能测试关注好不好用</p>
@@ -24,6 +24,7 @@
 <li>接口响应时间：50毫秒~1000毫秒</li>
 <li>吞吐量：1000万每天，2000万每天</li>
 <li>TPS：transaction per second 事务处理能力，每秒处理事务数（登录，打开页面，选择商品，加入购物车，下单，付款）</li>
+<li>备注：“日活” 每日活跃用户数，是运营数据，跟性能没有必然关联性</li>
 </ul>
 <p>性能期望值的定义来源：</p>
 <ul>
@@ -41,7 +42,8 @@
 </ul>
 <p>影响系统性能的因素：代码性能，系统架构，网络架构，存储读写性能，硬件性能等</p>
 <p>性能测试的价值：预测系统的性能瓶颈点，预测系统性能冗余度，平衡成本与收益</p>
-<h1 id="jmeter"><a href="#jmeter" class="headerlink" title="jmeter"></a>jmeter</h1><p>主要功能模块：</p>
+<h1 id="关于jmeter"><a href="#关于jmeter" class="headerlink" title="关于jmeter"></a>关于jmeter</h1><p><strong>JMeter简单介绍</strong></p>
+<p>主要功能模块：</p>
 <ul>
 <li>取样器：进行脚本逻辑控制</li>
 <li>线程组：压测场景控制</li>
@@ -49,11 +51,232 @@
 </ul>
 <p>常规菜单功能：</p>
 <p>新建，保存，查询，配置，帮助等</p>
-<p>使用说明：</p>
+<p><strong>JMeter使用说明</strong></p>
 <p>压测需求：<a target="_blank" rel="noopener" href="http://news.baidu.com/">http://news.baidu.com</a></p>
 <p>压测页面：首页，国际频道，财经频道</p>
 <p>操作步骤：</p>
-<p><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220402174746323.png" alt="image-20220402174746323"></p>
+<ol>
+<li>录制回放：<ol>
+<li>脚本录制之前的业务步骤梳理，明确</li>
+<li>创建代理 HTTPS test script recorder</li>
+<li>添加 Thread group</li>
+<li>添加 recorder controller</li>
+<li>代理中的配置：端口，include，exclude，存放位置</li>
+<li>开启jmeter代理</li>
+<li>配置浏览器代理</li>
+<li>在浏览器完成业务操作</li>
+<li>jmeter录制完成后检查</li>
+</ol>
+</li>
+<li>回放验证<ol>
+<li>添加view result tree</li>
+<li>view result tree用途：看request和response详情</li>
+<li>只是为了检验，所以一个并发一次循环即可，单击开始运行按钮</li>
+</ol>
+</li>
+<li>添加响应断言<ol>
+<li>检验请求、响应的正确性（校验点）</li>
+<li>压测结果的有效性 - 请求收到正确响应的前提下</li>
+<li>断言的实际值与设定值相符–&gt;成功</li>
+<li>断言的实际值与设定值不符–&gt;失败</li>
+<li>响应断言：校验响应码和文本内容</li>
+</ol>
+</li>
+<li>添加聚合测试报告 aggregate report <ol>
+<li>聚合报告：比较常用的一套展示压测结果的报告</li>
+<li>展示请求与响应性能参数</li>
+<li>累计值压测数据值的展示</li>
+<li>建议连续压测，如果中间有间断需要数据清零</li>
+</ol>
+</li>
+</ol>
+<p><strong>jmeter性能指标解读</strong>（聚合报告）：</p>
+<ul>
+<li><p>Label,线程组的步骤名</p>
+</li>
+<li><p># 样本,一共发出的请求数</p>
+</li>
+<li><p>Average 平均值,平均响应时间，默认情况下是单个请求的平均响应时间（ms）</p>
+<ul>
+<li>平均值的困扰 ~ 个别极端结果对实际性能数据的干扰</li>
+<li>% Line 更能客观反映实际性能情形</li>
+</ul>
+</li>
+<li><p>Median 中位数,有一半的服务器响应时间低于该值而另一半高于该值，也就是50%用户的响应时间</p>
+</li>
+<li><p>90% Line 百分位,90%请求的响应时间</p>
+</li>
+<li><p>95% Line 百分位,95%请求的响应时间</p>
+</li>
+<li><p>99% Line 百分位,99%请求的响应时间</p>
+</li>
+<li><p>Min 最小值,服务器响应的最短时间</p>
+</li>
+<li><p>Max 最大值,服务器响应的最长时间</p>
+</li>
+<li><p>Error 异常 %, 错误率</p>
+</li>
+<li><ul>
+<li>测试出现的错误请求数量百分比</li>
+<li>确认是否允许的发生或者错误率允许在多大的范围内</li>
+<li>若出现错误就要看服务端的日志，配合开发查找定位原因</li>
+</ul>
+</li>
+<li><p>Throughput 吞吐量,tps</p>
+</li>
+<li><ul>
+<li>默认情况下表示每秒处理的请求数，也就是指服务器处理能力，tps越高说明服务器处理能力越好</li>
+<li>吞吐量默认以request&#x2F;second来衡量，即每秒多少个请求</li>
+</ul>
+</li>
+<li><p>Received 接收 KB&#x2F;sec,每秒从服务器端接收到的数据量</p>
+</li>
+<li><p>Sent 发送 KB&#x2F;sec,每秒从客户端发送的请求的数据量</p>
+</li>
+</ul>
+<p><strong>JMeter 静默压测</strong></p>
+<ul>
+<li>静默(脱离UI界面运行JMeter压测)</li>
+<li>好处：命令运行更容易搞事情</li>
+<li>命令格式： jmeter -n -t $jmx_file -l $jtl_file</li>
+<li>jmx文件是程序脚本文件，压测控制过程记录在jmx文件中</li>
+<li>jtl文件是压测请求响应数据的原始文件</li>
+</ul>
+<h1 id="关于接口"><a href="#关于接口" class="headerlink" title="关于接口"></a>关于接口</h1><p><strong>Restful API接口简介</strong></p>
+<ul>
+<li>基于协议http或者HTTPS</li>
+<li>url定位资源位置</li>
+<li>常见method：get，post，put，delete</li>
+<li>常见执行结果状态返回码<ul>
+<li>200 - 成功</li>
+<li>302 - 重定向</li>
+<li>401 - 未授权</li>
+<li>404 - 资源不存在</li>
+<li>500 - 服务器内部错误</li>
+</ul>
+</li>
+<li>直观上看就是url配合请求数据包，得到响应数据包</li>
+</ul>
+<p><strong>为什么要进行接口测试</strong></p>
+<ul>
+<li>互联网项目的标准架构 - 前后端分离</li>
+<li>重后端，轻前端，逻辑的重头都在后端，后端的相对压力更大，一般影响系统性能的因素在后端</li>
+<li>后端通过Restful API接口与前端交互，所以对Restful API接口进行压测可以直观了解到系统的性能</li>
+</ul>
+<p>练习：<a target="_blank" rel="noopener" href="https://github.com/jesseATgithub/iJmeter">https://github.com/jesseATgithub/iJmeter</a></p>
+<h1 id="数据传递"><a href="#数据传递" class="headerlink" title="数据传递"></a>数据传递</h1><p>添加调试样本 Debug Sampler</p>
+<ul>
+<li>JMeter Properties  jmeter属性</li>
+<li>JMeter Variables  jmeter变量</li>
+<li>System Properties  系统属性</li>
+<li>一般只显示JMeter Variables就够用了</li>
+</ul>
+<p>解析JSON响应数据</p>
+<ul>
+<li>需要使用json路径表达式来匹配要提取的变量值</li>
+<li>$. 代表JSON的根节点</li>
+<li>可以在查看结果树的JSON Path Tester来确定所匹配的JSON变量路径的正确性</li>
+<li>在JSON提取器中填入如下信息<ul>
+<li>变量名称</li>
+<li>JSON路径表达式</li>
+<li>匹配编号（0表示随机）</li>
+</ul>
+</li>
+<li>JMeter中引用变量的方式 ${变量名}</li>
+<li>数据填写后运行调试结果</li>
+</ul>
+<p>全局参数设置与CSV数据导入</p>
+<ul>
+<li>设定全局参数 User Defined Variables<ul>
+<li>大家都要引用的参数，使用原则：有共性</li>
+<li>为了方便修改参数，一处改动全局替换</li>
+<li>常见的可以将hostname，IP，端口号，协议等定义为全局变量</li>
+</ul>
+</li>
+<li>设定CSV数据导入 CSV Data Set Config<ul>
+<li>多用户参数可以提取到CSV文件中</li>
+<li>配置数据也可以放到CSV文件中导入</li>
+<li>用excel创建CSV即可，数据之间使用英文的逗号来分割，保存后缀为csv文件</li>
+</ul>
+</li>
+</ul>
+<p><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220408134716133.png" alt="image-20220408134716133"></p>
+<h1 id="压测执行自动化"><a href="#压测执行自动化" class="headerlink" title="压测执行自动化"></a>压测执行自动化</h1><ul>
+<li>脚本中添加聚合报告</li>
+<li>制定压测策略 不同的并发数 10 20 30 40 50</li>
+<li>记录结果</li>
+<li>测试期望结果<ul>
+<li>验证能够支撑多大的并发数，峰值数</li>
+<li>验证错误率，定义可接受范围 &lt;&#x3D;0.1% or &lt;&#x3D;0.5% or must &#x3D; 0%</li>
+</ul>
+</li>
+<li>寻找系统性能点</li>
+</ul>
+<p><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220408135954188.png" alt="image-20220408135954188"></p>
+<p>实例：</p>
+<p><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220407124602095.png" alt="image-20220407124602095"></p>
+<p>记录结果：</p>
+<table>
+<thead>
+<tr>
+<th>运行次数</th>
+<th>并发数</th>
+<th>90%</th>
+<th>95%</th>
+<th>流量</th>
+<th>错误率</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>10</td>
+<td>1213</td>
+<td>1215</td>
+<td>31.9</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>50</td>
+<td>1325</td>
+<td>1388</td>
+<td>97.3</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>100</td>
+<td>1476</td>
+<td>6749</td>
+<td>107.8</td>
+<td>0</td>
+</tr>
+<tr>
+<td>4</td>
+<td>200</td>
+<td>7631</td>
+<td>8222</td>
+<td>114</td>
+<td>6.32</td>
+</tr>
+<tr>
+<td>5</td>
+<td>400</td>
+<td>3273</td>
+<td>8414</td>
+<td>202.2</td>
+<td>24.35</td>
+</tr>
+</tbody></table>
+<p>自动化压测实现思路：</p>
+<ul>
+<li>JMeter脚本jmx文件 - 压测逻辑</li>
+<li>Shell - 控制逻辑</li>
+<li>并发数的修改 - sed</li>
+<li>jmeter静默运行</li>
+<li>1开始–2生成对应并发数的jmx文件–3jmeter静默压测–4是否完成所有并发数（完成则退出，未完成则跳转第二步）</li>
+</ul>
+<p>自动化压测脚本：<a target="_blank" rel="noopener" href="https://github.com/jesseATgithub/iJmeter">iJmeter</a>&#x2F;<strong>automation</strong>&#x2F;<a target="_blank" rel="noopener" href="https://github.com/jesseATgithub/iJmeter/blob/master/automation/auto_stress_test.sh">auto_stress_test.sh</a></p>
 </div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">Feng Moqi</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://1.13.196.91/性能测试day2/">http://1.13.196.91/性能测试day2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"></div><nav id="pagination"><div class="prev-post pull-left"><a href="/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95day3/"><i class="fa fa-chevron-left">  </i><span>性能测试day3</span></a></div><div class="next-post pull-right"><a href="/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%AE%A1%E5%88%92-%E9%80%9A%E7%94%A8%E7%89%88/"><span>性能测试计划-通用版</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2022 By Feng Moqi</div><div class="framework-info"><span>Driven - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="footer_custom_text">hitokoto</div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.0"></script><script src="/js/fancybox.js?version=1.9.0"></script><script src="/js/sidebar.js?version=1.9.0"></script><script src="/js/copy.js?version=1.9.0"></script><script src="/js/fireworks.js?version=1.9.0"></script><script src="/js/transition.js?version=1.9.0"></script><script src="/js/scroll.js?version=1.9.0"></script><script src="/js/head.js?version=1.9.0"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
   $('#nav').addClass('is-mobile')
   $('footer').addClass('is-mobile')
